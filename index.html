@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Menu</title>
+    <link rel="icon" type="image/png" href="/image/fire.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- AOS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>قائمة الطعام</h1>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="ابحث عن عنصر...">
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-category="all">عرض الكل</button>
+            <button class="filter-btn" data-category="sandwiches">السندوتشات</button>
+            <button class="filter-btn" data-category="crepe">الكريب</button>
+            <button class="filter-btn" data-category="burger">سماش برجر</button>
+            <button class="filter-btn" data-category="syrian">عيش سوري</button>
+            <button class="filter-btn" data-category="fries">باكت بطاطس</button>
+            <button class="filter-btn" data-category="extras">الإضافات</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- السندوتشات -->
+        <div class="menu-section" data-category="sandwiches">
+            <h2>السندوتشات</h2>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كبدة اسكندرانـي</h3>
+                <span>10 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بطاطس</h3>
+                <span>10 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بطاطس شيدر</h3>
+                <span>15 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بانيه</h3>
+                <span>15 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>ميكس جبن</h3>
+                <span>20 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>إستريبس</h3>
+                <span>20 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>شاورما فراخ</h3>
+                <span>25 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>فاهيتا فراخ</h3>
+                <span>25 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كوردن بلو</h3>
+                <span>25 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>زينجر</h3>
+                <span>20 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>سوبر كرانشي</h3>
+                <span>25 جنيه</span>
+            </div>
+        </div>
+
+        <!-- الكريب -->
+        <div class="menu-section" data-category="crepe">
+            <h2>الكريب</h2>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب إستريبس</h3>
+                <span>55 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب بانيه</h3>
+                <span>40 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب الزينجر</h3>
+                <span>55 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب الشاورما فراخ</h3>
+                <span>65 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب فاهيتا فراخ</h3>
+                <span>65 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب سوبر كرانشي</h3>
+                <span>60 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب كوردن بلو</h3>
+                <span>60 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>كريب لحوم</h3>
+                <span>70 جنيه</span>
+            </div>
+        </div>
+
+        <!-- سماش برجر -->
+        <div class="menu-section" data-category="burger">
+            <h2>سماش برجر</h2>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>فاير برجر</h3>
+                <span>110 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>دابل برجر</h3>
+                <span>90 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>تشيز برجر</h3>
+                <span>100 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>تكساس برجر</h3>
+                <span>65 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>دابل تشيكن</h3>
+                <span>90 جنيه</span>
+            </div>
+        </div>
+
+        <!-- عيش سوري -->
+        <div class="menu-section" data-category="syrian">
+            <h2>عيش سوري</h2>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>سوري رومي</h3>
+                <span>30 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>سوري شيدر</h3>
+                <span>25 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>سوري شاورما فراخ</h3>
+                <span>45 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>سوري إستريبس</h3>
+                <span>35 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>سوري فايـر</h3>
+                <span>55 جنيه</span>
+            </div>
+        </div>
+
+        <!-- باكت بطاطس -->
+        <div class="menu-section" data-category="fries">
+            <h2>باكت بطاطس</h2>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بطاطس توابل</h3>
+                <span>15 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بطاطس شيدر</h3>
+                <span>20 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بطاطس جبن</h3>
+                <span>30 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>بطاطس فاير</h3>
+                <span>35 جنيه</span>
+            </div>
+        </div>
+
+        <!-- الإضافات -->
+        <div class="menu-section" data-category="extras">
+            <h2>الإضافات</h2>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>صوص شيدر</h3>
+                <span>10 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>صوص الباربكيو</h3>
+                <span>5 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>صوص الكاتشب</h3>
+                <span>5 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>صوص المايونيز</h3>
+                <span>10 جنيه</span>
+            </div>
+            <div class="menu-item" data-aos="fade-up">
+                <h3>موتزريلا</h3>
+                <span>10 جنيه</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>للطلبات</h3>
+                <p>01091002904</p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://www.facebook.com/share/17zBHhJGJA/?mibextid=wwXIfr" class="social-link" title="Facebook" target="_blank" rel="noopener">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook">
+                </a>
+            </div>
+            <div class="footer-credits">
+                <p>&copy; 2024 Fire Menu. جميع الحقوق محفوظة.</p>
+                <div class="fire-icon">
+                    <img src="https://img.icons8.com/emoji/48/000000/fire.png" alt="Fire Icon" title="Fire Menu">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
